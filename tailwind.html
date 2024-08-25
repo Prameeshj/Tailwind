@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducatti Bike Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<style>
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color:black;
+    border-radius: 5px;
+}
+</style>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header id="header" class=" bg-black text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold"><img class="w-26 mx-0" src="./images/logo.jpeg" alt=""></h1>
+            <hr class=" divide-white">
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#header" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#models" class="hover:text-gray-300">Models</a></li>
+                    <li><a href="#features" class="hover:text-gray-300">Features</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('./images/Ducati-1.webp');">
+        <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50 text-white text-center">
+            <h2 class="text-5xl font-bold mb-4">Experience Luxury & Performance</h2>
+            <p class="text-xl mb-8">The new Ducati Models redefine excellence.</p>
+            <a href="#models" class="bg-black-500 hover:bg-black text-white font-bold py-3 px-6 rounded-full">Explore Models</a>
+        </div>
+    </section>
+<!-- Features Section -->
+<section id="features" class="py-16 bg-white">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 text-blue-500">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">High Speed</h3>
+                    <p class="text-gray-700">Can fly like a Jet.</p>
+                </div>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 text-blue-500">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Powerful Look</h3>
+                    <p class="text-gray-700">Exquisite Look in every detail.</p>
+                </div>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 text-blue-500">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Performance</h3>
+                    <p class="text-gray-700">Unmatched power and handling.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-black text-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8">Contact Us</h2>
+        <p class="text-lg mb-8">Have questions? We're here to help. Reach out to us for more information.</p>
+        <a href="mailto:info@benzshowcase.com" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">Email Us</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-gray-400 py-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Ducati Bike Showcase. All rights reserved.</p>
+    </div>
+    <div class="icon upArrow"><a href="#header"><i class="fa-solid fa-angle-up brands"></i></a></div>
+
+</footer>
+</body>
+</html>
+    <!-- Models Section -->
+    <section id="models" class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Models</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Model 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/2020-ducati-monster-821-01.webp" alt="Ducati Model 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Ducati Monster</h3>
+                        <p class="text-gray-700">An iconic blend of performance and power.</p>
+                        <a href="#" class="block mt-4 text-blue-500 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Model 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/2023-Ducati-Scrambler-Lineup-0-Hero-1074x716.jpg" alt="Ducati Model 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Ducati Scrambler</h3>
+                        <p class="text-gray-700">Crafted for those who seek ultimate Rush.</p>
+                        <a href="#" class="block mt-4 text-blue-500 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Model 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./images/Ducati XDiavel.webp" alt="Ducati Model 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Ducati XDiavel</h3>
+                        <p class="text-gray-700">Excellence in every detail.</p>
+                        <a href="#" class="block mt-4 text-blue-500 hover:underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
